@@ -1,0 +1,52 @@
+@import url("https://use.typekit.net/ygj5abd.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(124, 116, 116);
+    width: 50vw;
+    height: 83.5vh;
+    padding: 4%;
+}
+
+.sidebar ul {
+    font-size: 2rem;
+}
+
+.sidebar ul li {
+    margin: 2rem 0rem;
+    list-style: none;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:500 ;
+}
+
+.main{
+    padding: 5rem 4.8em;
+    background-color: burlywood ;
+}
+
+.box{
+    height: 18vh;
+    width: 19vw;
+    background-color: rgb(225, 13, 193);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2vh 2vw;
+    font-size: large;
+    margin: 0 .5vw;
+}
+
+.row{
+    display: flex;
+    margin-top:10vh ;
+}
