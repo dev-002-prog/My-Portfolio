@@ -81,6 +81,7 @@ h1{
     .sidebar{
         width: 46rem;
         height: 5rem;
+ 
     }
 
     .sidebar ul{
@@ -90,6 +91,15 @@ h1{
     .sidebar ul li{
         margin-left: 1rem;
     }
+
+    .sidebar ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight:none ;
+        font-size: 1.5rem;
+    }
+
+
 
     h1{
         font-size: 3rem;
