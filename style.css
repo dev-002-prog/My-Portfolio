@@ -102,23 +102,23 @@
 }
 
 @media screen and (max-width:455px) {
-
-    .content{
-        flex-direction: column;
-    }
-
     .intro {
         height: 70vh;
-        width: 43rem;
+        width: 44rem;
         background-color: yellow;
         flex-direction: column;
         font-family: "alegreya-sc", serif;
         font-weight: 700;
         font-style: italic;
     }
+    .content{
+        flex-direction: column;
+    }
+
     .sidebar{
-        width: 45rem;
+        width: 46rem;
         height: 5rem;
+ 
     }
 
     .sidebar ul{
@@ -127,6 +127,13 @@
 
     .sidebar ul li{
         margin-left: 1rem;
+    }
+
+    .sidebar ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight:none ;
+        font-size: 1.5rem;
     }
 
     .image img{

@@ -63,8 +63,9 @@ h1{
     }
 
     .sidebar{
-        width: 45rem;
+        width: 46rem;
         height: 5rem;
+ 
     }
 
     .sidebar ul{
@@ -75,8 +76,16 @@ h1{
         margin-left: 1rem;
     }
 
+    .sidebar ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight:none ;
+        font-size: 1.5rem;
+    }
+
+
     .main{
-        width: 37.3rem;
+        width: 38.5rem;
         height: 100rem;
     }
 
