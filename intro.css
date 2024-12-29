@@ -67,3 +67,35 @@
     border-radius: 3rem ;
     background-color: rgb(0, 255, 89);
 }
+
+@media screen and (max-width:455px) {
+
+    .content{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 45rem;
+        height: 5rem;
+    }
+
+    .sidebar ul{
+        display: flex;
+    }
+
+    .sidebar ul li{
+        margin-left: 1rem;
+    }
+
+    .main{
+        width: 44rem;
+        padding: 2vh 2vh;
+        background-color:antiquewhite;
+        font-family: "PT Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: large;
+    }
+
+
+}

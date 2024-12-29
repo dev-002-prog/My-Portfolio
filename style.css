@@ -100,3 +100,59 @@
     width: 1.5vw;
     margin-top: .5vh;
 }
+
+@media screen and (max-width:455px) {
+
+    .content{
+        flex-direction: column;
+    }
+
+    .intro {
+        height: 70vh;
+        width: 43rem;
+        background-color: yellow;
+        flex-direction: column;
+        font-family: "alegreya-sc", serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+    .sidebar{
+        width: 45rem;
+        height: 5rem;
+    }
+
+    .sidebar ul{
+        display: flex;
+    }
+
+    .sidebar ul li{
+        margin-left: 1rem;
+    }
+
+    .image img{
+        height: 80vh;
+        margin-top: 15vh;
+        margin-left: 25vw;
+    }
+
+    .name {
+        font-size: 2.5rem;
+        font-weight: bold;
+        width: 45rem;
+    }
+
+    .button{
+        height: 3.5vh;
+        width: 15rem;
+        border-radius: 5px;
+        margin-top: 1vh;
+        cursor: pointer;
+        background-color: aquamarine;
+        color: black;
+    }
+
+    .logo img{
+        width: 5vw;
+        margin-top: .5vh;
+    }
+}

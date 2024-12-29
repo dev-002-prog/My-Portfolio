@@ -79,3 +79,38 @@ h3{
     color: blue;
     font-weight: bolder;
 }
+
+@media screen and (max-width:455px) {
+
+    .content{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 45rem;
+        height: 5rem;
+    }
+
+    .sidebar ul{
+        display: flex;
+    }
+
+    .sidebar ul li{
+        margin-left: 1rem;
+    }
+
+    .media{
+        align-items: center;
+    }
+
+    .main {
+        margin: 0 ;
+        width: 35rem;
+        font-family: "Dancing Script", serif;
+        font-optical-sizing: none;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3.5rem;
+        margin-left: 7rem;
+    }
+}
